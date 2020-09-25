@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
@@ -75,16 +77,15 @@ const writeToFile = (fileContent) => {
 };
 
 // function to initialize program
-init()
-    .then(questions)
+const init = () => {
+    questions()
     .then(data => {
         return generateMarkdown(data);
     })
     .then(fileContent => {
         return writeToFile(fileContent);
     });
-
 };
 
 // function call to initialize program
-// init();
+init();

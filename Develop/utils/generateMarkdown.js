@@ -3,6 +3,15 @@ const generateMarkdown = data => {
   return `
   # ${data.title}
 
+  ## Table of Contents
+  [description](#Description)
+  [instalation](#Instalation)
+  [usage](#Usage)
+  [contributing](#Contribution Guidelines)
+  [tests](#Test Instructions)
+  [licence](#Licence)
+  [questions](#Questions)
+
   ## Description
   ${data.description}
 
