@@ -4,13 +4,13 @@ const generateMarkdown = data => {
   # ${data.title}
 
   ## Table of Contents
-  [description](#Description)
-  [instalation](#Instalation)
-  [usage](#Usage)
-  [contributing](#Contribution Guidelines)
-  [tests](#Test Instructions)
-  [licence](#Licence)
-  [questions](#Questions)
+  [Description](###Description)
+  [Instalation](###Instalation)
+  ###[Usage](#Usage)
+  ###[Contributing](#Contributing)
+  ###[Tests](#Tests)
+  ###[Licence](#Licence)
+  ###[Questions](#Questions)
 
   ## Description
   ${data.description}
@@ -28,15 +28,17 @@ const generateMarkdown = data => {
   ${data.tests}
 
   ## Licence
-  ${data.licence}
+  ${data.license}
 
   ## Questions
   [GitHub Profile](${data.github})
-  ${data.email}
-  ${data.contact}
+  ###${data.email}
+  ###${data.contact}
 
 `;
 }
+
+
 
 module.exports = generateMarkdown;
 

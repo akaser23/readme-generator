@@ -18,7 +18,7 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'installation',
+            name: 'instalation',
             message: 'Please give installation instructions.'
         },
         {
@@ -61,9 +61,12 @@ const questions = () => {
 };
 
 // function to write README file
-const writeToFile = (fileContent) => {
+const writeFile = fileContent => {
+
+    const readmeData = generateMarkdown(fileContent); 
+
     return new Promise((resolve, reject) => {
-        fs.writeToFile('./README.md', fileContent, err => {
+        fs.writeFile('./README.md', readmeData, err => {
             if (err) {
                 reject(err);
                 return;
@@ -79,12 +82,12 @@ const writeToFile = (fileContent) => {
 // function to initialize program
 const init = () => {
     questions()
-    .then(data => {
-        return generateMarkdown(data);
-    })
-    .then(fileContent => {
-        return writeToFile(fileContent);
+    .then(questionData => {
+        return writeFile(questionData);
     });
+    // .then(data => {
+    //     return generateMarkdown(data);
+    // });
 };
 
 // function call to initialize program
