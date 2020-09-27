@@ -4,13 +4,20 @@ const generateMarkdown = data => {
   # ${data.title}
 
   ## Table of Contents
+
   [Description](###Description)
+
   [Instalation](###Instalation)
-  ###[Usage](#Usage)
-  ###[Contributing](#Contributing)
-  ###[Tests](#Tests)
-  ###[Licence](#Licence)
-  ###[Questions](#Questions)
+
+  [Usage](###Usage)
+
+  [Contributing](###Contributing)
+
+  [Tests](###Tests)
+
+  [Licence](###Licence)
+
+  [Questions](###Questions)
 
   ## Description
   ${data.description}
@@ -32,8 +39,8 @@ const generateMarkdown = data => {
 
   ## Questions
   [GitHub Profile](${data.github})
-  ###${data.email}
-  ###${data.contact}
+  ### ${data.email}
+  ### ${data.contact}
 
 `;
 }
