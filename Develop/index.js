@@ -9,7 +9,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'title',
-            message: 'What is your project title? (Required)'
+            message: 'What is your project title?'
         },
         {
             type: 'input',
@@ -19,17 +19,17 @@ const questions = () => {
         {
             type: 'input',
             name: 'instalation',
-            message: 'Please give installation instructions.'
+            message: 'Please give instalation instructions.'
         },
         {
             type: 'input',
             name: 'usage',
-            message: 'Please describe usaeg inforamtion.'
+            message: 'Please describe usage inforamtion.'
         },
         {
             type: 'input',
             name: 'contributing',
-            message: 'What contribution guidlines do you have?'
+            message: 'What contribution guidelines do you have?'
         },
         {
             type: 'input',

@@ -7,13 +7,13 @@ const generateMarkdown = data => {
 
   [Description](###Description)
 
-  [Instalation](###Instalation)
+  [Instalation](###Instalation%20Instructions)
 
-  [Usage](###Usage)
+  [Usage](###Usage%20Information)
 
-  [Contributing](###Contributing)
+  [Contributing](###Contributing%20Guidelines)
 
-  [Tests](###Tests)
+  [Tests](###Test%20Instructions)
 
   [Licence](###Licence)
 
