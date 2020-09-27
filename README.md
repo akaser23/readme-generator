@@ -33,9 +33,12 @@
 
   ## Licence
   ![Github](https://img.shields.io/badge/Github-MIT-green)
+  
+  ## Link
+  ![Video](https://drive.google.com/file/d/1OW-EcE40gO0RM-lYtQr2F-Ki0S8-s_W5/view?usp=sharing)
 
   ## Questions
-  [GitHub Profile](github.com/akaser23)
+  [GitHub Profile](https://github.com/akaser23/readme-generator)
   ### kaserann96@gmail.com
   ### My prefered contact is through email. 
 
