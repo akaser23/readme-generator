@@ -26,19 +26,19 @@
   This application is for personal use to generate READMEs of all kinds.
 
   ## Contribution Guidelines
-  
+  No contribution information.
 
   ## Test Instructions
-  No contribution information. No test instructions. 
+  No test instructions. 
 
   ## Licence
   ![Github](https://img.shields.io/badge/Github-MIT-green)
   
   ## Link
-  ![Video](https://drive.google.com/file/d/1OW-EcE40gO0RM-lYtQr2F-Ki0S8-s_W5/view?usp=sharing)
+  [Video](https://drive.google.com/file/d/1OW-EcE40gO0RM-lYtQr2F-Ki0S8-s_W5/view?usp=sharing)
 
   ## Questions
-  [GitHub Profile](https://github.com/akaser23/readme-generator)
+  [GitHub Profile](https://github.com/akaser23)
   ### kaserann96@gmail.com
   ### My prefered contact is through email. 
 
